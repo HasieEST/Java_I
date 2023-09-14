@@ -13,5 +13,6 @@ public class LeapYear {
         } else {
             System.out.println("Inserted year: " + String.valueOf(year) + " is not a leapyear");
         }
+        input.close();
     }
 }

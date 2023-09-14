@@ -16,5 +16,6 @@ public class Password {
             }
         }
         System.out.println("Secret is: HEHE");
+        input.close();
     }
 }
